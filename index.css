@@ -55,6 +55,7 @@ body {
 .card {
   width: 20%;
   padding: 1em;
+  min-width: 307px;
   background: var(--clr-card-background);
   border-radius: 9px;
 }
