@@ -41,13 +41,16 @@ body {
 
 /* card area */
 .card {
-  width: 23%;
+  width: 350px;
   padding: 1.25em;
   padding-bottom: 0.9em;
-  max-width: 350px;
-  min-width: 310px;
   background: var(--clr-card-background);
   border-radius: 14px;
+}
+@media (max-width: 375px) {
+  .card {
+    width: 310px;
+  }
 }
 .card_image {
   position: relative;
