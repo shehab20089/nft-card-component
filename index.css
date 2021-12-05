@@ -24,23 +24,11 @@
 /* body */
 body {
   font-size: 18px;
-  background-color: var(--clr-body-background);
+  /* background-color: var(--clr-body-background); */
   color: var(--clr-soft-blue);
   font-family: "Outfit", sans-serif;
+  line-height: 1.5;
   font-weight: 300;
-}
-.demo-bg {
-  opacity: 0.6;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
-}
-.demo-bg img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
 }
 /* page wrapper */
 .wrapper {
@@ -53,11 +41,14 @@ body {
 
 /* card area */
 .card {
-  width: 20%;
-  padding: 1em;
-  min-width: 307px;
+  width: 23%;
+  padding: 1.25em;
+  padding-bottom: 0.9em;
+  max-width: 350px;
+  min-width: 310px;
   background: var(--clr-card-background);
-  border-radius: 9px;
+  background: red;
+  border-radius: 14px;
 }
 .card_image {
   position: relative;
@@ -91,9 +82,9 @@ body {
 .card_Heading {
   color: var(--clr-white);
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   transition: 0.3s;
-  margin: 1rem 0;
+  margin: 1.1rem 0;
 }
 .card_Heading:hover {
   cursor: pointer;
@@ -101,13 +92,14 @@ body {
 }
 
 .card_description {
-  font-size: 1rem;
+  font-size: 1.15rem;
   color: var(--clr-soft-blue);
   margin: 1rem 0;
 }
 .card_infotab {
   display: flex;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 400;
   margin: 1rem 0;
 
   justify-content: space-between;
@@ -124,17 +116,18 @@ body {
   height: 1px;
   background: var(--clr-line);
   margin: 1.5rem 0;
+  margin-bottom: 1rem;
 }
 .card-userInfo {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 0.9rem;
+  gap: 14px;
+  font-size: 1.05rem;
   margin: 1rem 0;
 }
 .avatar {
-  width: 25px;
-  height: 25px;
+  width: 33px;
+  height: 33px;
   border-radius: 50%;
   border: 1px solid var(--clr-white);
 }
