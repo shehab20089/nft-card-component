@@ -47,7 +47,7 @@ body {
   background: var(--clr-card-background);
   border-radius: 14px;
 }
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .card {
     width: 310px;
   }
