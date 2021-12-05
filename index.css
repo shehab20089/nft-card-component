@@ -24,7 +24,7 @@
 /* body */
 body {
   font-size: 18px;
-  /* background-color: var(--clr-body-background); */
+  background-color: var(--clr-body-background);
   color: var(--clr-soft-blue);
   font-family: "Outfit", sans-serif;
   line-height: 1.5;
@@ -47,7 +47,6 @@ body {
   max-width: 350px;
   min-width: 310px;
   background: var(--clr-card-background);
-  background: red;
   border-radius: 14px;
 }
 .card_image {
